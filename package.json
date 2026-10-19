@@ -1,0 +1,19 @@
+{
+  "name": "aceit-chat-server",
+  "version": "1.0.0",
+  "description": "Ace It Today Chat Server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "node --watch ./index.js"
+  },
+  "keywords": [],
+  "author": "Tigere Bevin Masevenza",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.3.0",
+    "nodemon": "^3.1.14",
+    "socket.io": "^4.8.4"
+  }
+}
